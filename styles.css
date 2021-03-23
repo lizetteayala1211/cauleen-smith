@@ -741,7 +741,10 @@ iframe {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
 
-
+body {
+	overflow: hidden;
+}
+	
 h1 {
     font-family: FREEFATFONT;
     font-size: 12em;
@@ -756,8 +759,8 @@ h2 {
     font-family: Casta-Thin;
     font-size: 5em;
     color: rgb(240, 51, 78);
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 h3 {
