@@ -750,7 +750,7 @@ h1 {
     font-size: 12em;
     line-height: 0.9;
     color: rgb(240, 51, 78);
-    -webkit-text-stroke: 0px rgb(47, 11, 0);
+    -webkit-text-stroke: 1px rgb(47, 11, 0);
     margin-top: 0px;
     margin-bottom: 0px;
 }
