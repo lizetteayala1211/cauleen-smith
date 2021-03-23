@@ -801,8 +801,8 @@ p {
     text-align: center;
     align-self: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #nav-link {
