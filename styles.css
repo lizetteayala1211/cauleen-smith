@@ -1,4 +1,3 @@
-
 @font-face {
 font-family: "FREEFATFONT";
 src:
@@ -782,7 +781,7 @@ p {
 #landing-page-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: transparent;
     height: 100vh;
     width: 96%;
@@ -803,7 +802,7 @@ p {
     align-self: center;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 #nav-link {
