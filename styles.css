@@ -197,6 +197,7 @@ a {
 
 #top-page-nav-link {
 	text-decoration: none;
+	cursor: pointer; 
 }
 
 #top-page-nav-link:hover {
@@ -916,6 +917,7 @@ p {
     height: 90vh;
     width: 96%;
     margin: 20px;
+    overflow-y: hidden;
 }
 
 #copy-container {
@@ -1117,13 +1119,13 @@ p {
     width: 96%;
     margin: 20px;
 }
-	
+
 #bio-index {
     font-size: 2.5em;
 }
 
 #horizontal-line-three-container {
-    width: 38%;
+    width: 36%;
     margin-right: 20px;
     margin-left: 20px;
     align-self: center;
