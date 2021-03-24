@@ -917,7 +917,6 @@ p {
     height: 90vh;
     width: 96%;
     margin: 20px;
-    overflow-y: hidden;
 }
 
 #copy-container {
