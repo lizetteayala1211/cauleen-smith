@@ -1,3 +1,4 @@
+
 @font-face {
 font-family: "FREEFATFONT";
 src:
@@ -810,13 +811,13 @@ iframe {
 
 #pdf-copy {
 	text-align: center;
-	height: 60%;
+	height: 40%;
 	width: 70%;
 }
 
 #catalog-copy {
 	margin: 0;
-	font-size: 40px;
+	font-size: 30px;
 }
 
 #horizontal-line-five-container {
