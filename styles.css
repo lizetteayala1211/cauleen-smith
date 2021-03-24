@@ -1117,6 +1117,10 @@ p {
     width: 96%;
     margin: 20px;
 }
+	
+#bio-index {
+    font-size: 25px;
+}
 
 #horizontal-line-three-container {
     width: 38%;
