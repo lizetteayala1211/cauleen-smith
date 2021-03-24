@@ -1119,9 +1119,9 @@ p {
 }
 
 #horizontal-line-three-container {
-    width: 46%;
-    margin-right: 32px;
-    margin-left: 32px;
+    width: 36%;
+    margin-right: 20px;
+    margin-left: 20px;
     align-self: center;
 }
 
@@ -1149,8 +1149,8 @@ p {
 
 #horizontal-line-four-container {
     width: 27%;
-    margin-right: 32px;
-    margin-left: 32px;
+    margin-right: 20px;
+    margin-left: 20px;
     align-self: center;
 }
 
@@ -1211,9 +1211,9 @@ p {
 }
 
 #horizontal-line-five-container {
-    width: 36%;
-    margin-right: 32px;
-    margin-left: 32px;
+    width: 26%;
+    margin-right: 20px;
+    margin-left: 20px;
     align-self: center;
 }
 
