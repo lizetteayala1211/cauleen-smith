@@ -916,7 +916,6 @@ p {
     height: 90vh;
     width: 96%;
     margin: 20px;
-    overflow-y: hidden;
 }
 
 #copy-container {
@@ -1045,7 +1044,7 @@ p {
     justify-content: center;
     border-left: 1px solid rgb(240, 51, 78);
     border-right: 1px solid rgb(240, 51, 78);
-    height: 87%;
+    height: 85%;
     width: 100%;
     margin-top: 20px;
     overflow: hidden;
@@ -1135,7 +1134,7 @@ p {
     flex-direction: column;
     border-left: 1px solid rgb(240, 51, 78);
     border-right: 1px solid rgb(240, 51, 78);
-    height: 88%;
+    height: 85%;
     width: 100%;
     margin-top: 20px;
     overflow: hidden scroll;
@@ -1164,7 +1163,7 @@ p {
     flex-direction: column;
     border-left: 1px solid rgb(240, 51, 78);
     border-right: 1px solid rgb(240, 51, 78);
-    height: 88%;
+    height: 85%;
     width: 100%;
     margin-top: 20px;
     overflow: hidden;
@@ -1227,7 +1226,7 @@ p {
     flex-direction: column;
     border-left: 1px solid rgb(240, 51, 78);
     border-right: 1px solid rgb(240, 51, 78);
-    height: 88%;
+    height: 85%;
     width: 100%;
     margin-top: 20px;
     overflow: hidden;
