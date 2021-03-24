@@ -916,15 +916,16 @@ p {
     height: 97.5vh;
     width: 96%;
     margin: 20px;
+    overflow: hidden;
 }
 
 #copy-container {
     border-left: 1px solid rgb(240, 51, 78);
     border-right: 1px solid rgb(240, 51, 78);
-    height: 88%;
+    height: 85%;
     width: 100%;
     margin-top: 20px;
-    overflow: hidden scroll;
+    overflow: scroll;
 }
 
 #horizontal-line-container {
