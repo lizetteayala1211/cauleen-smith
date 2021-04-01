@@ -918,7 +918,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    place-content: center space-around;
+    justify-content: center;
     padding: 35px;
     background-color: rgb(240, 51, 78);
     height: 10%;
@@ -957,7 +957,7 @@ button#nav-links {
     width: 20px;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin-right: 20px;
     margin-left: 20px;
 }
