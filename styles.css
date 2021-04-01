@@ -919,7 +919,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding: 35px;
     background-color: rgb(240, 51, 78);
     height: 10%;
