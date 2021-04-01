@@ -939,13 +939,14 @@ p {
 }
   
   button#nav-links {
+  width: 50%;
   background: transparent;
   border: 0;
 }
 
 #nav-links {
   font-family: 'Casta-Thin';
-  font-size: .9em;
+  font-size: .8em;
   color: #2F0B00;
   -webkit-text-stroke: 1px #2F0B00;
   cursor: pointer;
