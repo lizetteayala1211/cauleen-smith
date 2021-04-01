@@ -960,8 +960,8 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #introduction-page-container {
