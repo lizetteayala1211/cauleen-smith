@@ -937,6 +937,19 @@ p {
     -webkit-text-stroke: 1px rgb(47, 11, 0);
     cursor: pointer;
 }
+  
+  button#nav-links {
+  background: transparent;
+  border: 0;
+}
+
+#nav-links {
+  font-family: 'Casta-Thin';
+  font-size: .9em;
+  color: #2F0B00;
+  -webkit-text-stroke: 1px #2F0B00;
+  cursor: pointer;
+}
 
 #introduction-page-container {
     display: none;
