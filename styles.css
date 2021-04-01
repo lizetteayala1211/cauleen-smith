@@ -932,7 +932,6 @@ p {
 
 #nav-link {
     font-family: Casta-Thin;
-    font-size: 4.8em;
     color: rgb(47, 11, 0);
     -webkit-text-stroke: 1px rgb(47, 11, 0);
     cursor: pointer;
@@ -945,7 +944,7 @@ button#nav-links {
 
 #nav-links {
   font-family: 'Casta-Thin';
-  font-size: .9em;
+  font-size: 1.8em;
   color: #2F0B00;
   -webkit-text-stroke: 1px #2F0B00;
   cursor: pointer;
@@ -959,8 +958,8 @@ button#nav-links {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #introduction-page-container {
