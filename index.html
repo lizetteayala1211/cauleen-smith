@@ -11,6 +11,16 @@
 
 <body>
 
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FBPQVWC8JG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FBPQVWC8JG');
+</script> 
+
 
 <div id="body-main-container">
 
@@ -99,25 +109,42 @@
      });
 </script>
 
-
 		<div id="navigation-bar-container">
-			<div id="nav-link" class="nav-link-one" > INTRODUCTION </div>
+			<div id="nav-link" class="nav-link-one" ><button id="nav-links">INTRODUCTION</button></div>
 			<div id="divider">  </div>
-			<div id="nav-link" class="nav-link-two" > <i>H-E-L-L-O</i> </div>
+			<div id="nav-link" class="nav-link-two" ><button id="nav-links"><i>H-E-L-L-O</i></button></div>
 			<div id="divider">  </div>
-			<div id="nav-link" class="nav-link-three"> BIO </div>
+			<div id="nav-link" class="nav-link-three"><button id="nav-links">BIO</button></div>
 			<div id="divider">  </div>
-			<div id="nav-link"  class="nav-link-four"> RESPONSES </div>
+			<div id="nav-link"  class="nav-link-four"><button id="nav-links">RESPONSES</button></div>
 			<div id="divider">  </div>
-			<div id="nav-link" class="nav-link-five" > CATALOG </div>
+			<div id="nav-link" class="nav-link-five" ><button id="nav-links">CATALOG</button></div>
 		</div>
 	</div>
 	</section>
 
+  <script type = "text/javascript">
+        $(function () {
+            $(window).keydown(function (e) {
+                var keyCode = window.event ? e.keyCode : e.which;
+                //UP
+                if (keyCode == 38) {
+                    $("#copy-container").animate({ scrollTop: 0 }, 1000);
+                    return false;
+                }
+                //DOWN
+                if (keyCode == 40) {
+                    $("#copy-container").animate({ scrollTop: 1000}, 1000);
+                    return false;
+                }
+            });
+        });
+    </script>
+
 	<section>
 	<div id="introduction-page-container">
 		<div id="top-page-container">
-			<a id="top-page-nav-link"><h3> CAULEEN SMITH </h3></a>
+			<a id="top-page-nav-link"><h3><button id="top-nav-link">CAULEEN SMITH</button></h3></a>
 			<div id="horizontal-line-container">
 			<hr style="color:#F0334E;background-color:#F0334E">
 			</div>
@@ -144,8 +171,8 @@ ValeriaNapoleoneXXIFA is an ongoing commitment to underwrite the Great Hall Exhi
 			</p>
 
 			<div id="logos-container">
-				<div id="logo" class="one"></div>
-				<div id="logo" class="two"></div>
+				<div id="logo" class="one" title="Institute of Fine Arts logo"></div>
+				<div id="logo" class="two" title="Valeria ValeriaNapoleoneXXIFA"></div>
 			</div>
 		</div>
 
@@ -170,8 +197,8 @@ ValeriaNapoleoneXXIFA is an ongoing commitment to underwrite the Great Hall Exhi
 				</div>
 				<div id="divider-one-container"></div>
 				<div id="arrows-container">
-					<div id="left-arrow" class="intro"></div>
-					<div id="right-arrow" class="intro"></div>
+					<div id="left-arrow" class="intro" title="Left Navigation Arrow"><button id="nav-arrows"></button></div>
+					<div id="right-arrow" class="intro" title="Right Navigation Arrow"><button id="nav-arrows"></button></div>
 				</div>
 				<div id="divider-two-container"></div>
 		</div>	
@@ -181,7 +208,7 @@ ValeriaNapoleoneXXIFA is an ongoing commitment to underwrite the Great Hall Exhi
 
 	<div id="video-page-container">
 		<div id="top-page-container">
-			<a href="#landing-page-container" id="top-page-nav-link" class="two"><h3> CAULEEN SMITH </h3></a>
+			<a href="#landing-page-container" id="top-page-nav-link" class="two"><h3><button id="top-nav-link">CAULEEN SMITH</button></h3></a>
 			<div id="horizontal-line-two-container">
 			<hr style="color:#F0334E;background-color:#F0334E">
 			</div>
@@ -309,8 +336,8 @@ window.SetVolume = function(val)
 				</div>
 				<div id="divider-one-container"></div>
 				<div id="arrows-container">
-					<div id="left-arrow" class="video"></div>
-					<div id="right-arrow" class="video"></div>
+					<div id="left-arrow" class="video" title="Left Navigation Arrow"><button id="nav-arrows"></button></div>
+					<div id="right-arrow" class="video" title="Right Navigation Arrow"><button id="nav-arrows"></button></div>
 				</div>
 				<div id="divider-two-container"></div>
 		</div>	
@@ -320,7 +347,7 @@ window.SetVolume = function(val)
 	<section>
 		<div id="bio-page-container">
 			<div id="top-page-container">
-				<a href="#landing-page-container" id="top-page-nav-link" class="three"><h3> CAULEEN SMITH </h3></a>
+				<a href="#landing-page-container" id="top-page-nav-link" class="three"><h3><button id="top-nav-link">CAULEEN SMITH</button></h3></a>
 				<div id="horizontal-line-three-container">
 				<hr style="color:#F0334E;background-color:#F0334E">
 				</div>
@@ -373,6 +400,7 @@ $("#hover-link-four").mouseenter(function(){
   $("#copy-three-container").css("background-position", "center");
   $("#copy-three-container").css("background-image", "url(assets/images/fig4.jpg)");
   $("#bio").css("background-color", "rgba(0, 0, 0, 0.4)");
+  $("#hover-link-four").attr('title', 'Hover Images');
 });	
 
 $("#hover-link-four").mouseleave(function(){
@@ -410,6 +438,28 @@ $("#hover-link-six").mouseleave(function(){
 });
 
 </script>
+
+<script type = "text/javascript">
+        $(function () {
+            $(window).keydown(function (e) {
+                var keyCode = window.event ? e.keyCode : e.which;
+                //UP
+                if (keyCode == 38) {
+                    $("#copy-three-container").animate({ scrollTop: 0 }, 1000);
+                    return false;
+                }
+                //DOWN
+                if (keyCode == 40) {
+                    $("#copy-three-container").animate({ scrollTop: 1000 }, 1000);
+                    return false;
+                }
+                else if (keyCode == 40) {
+                    $("#copy-three-container").animate({ scrollTop: 1000 }, 1000);
+                    return false;
+                }
+            });
+        });
+    </script>
 
 			<div id="copy-three-container">
 				<p id="bio"> 
@@ -456,8 +506,8 @@ $("#hover-link-six").mouseleave(function(){
 
 				<div id="divider-one-container"></div>
 				<div id="arrows-container">
-					<div id="left-arrow" class="bio"></div>
-					<div id="right-arrow" class="bio"></div>
+					<div id="left-arrow" class="bio" title="Left Navigation Arrow"><button id="nav-arrows"></button></div>
+					<div id="right-arrow" class="bio" title="Right Navigation Arrow"><button id="nav-arrows"></button></div>
 				</div>
 				<div id="divider-two-container"></div>
 			</div>
@@ -467,7 +517,7 @@ $("#hover-link-six").mouseleave(function(){
 	<section>
 		<div id="responses-page-container">
 			<div id="top-page-container">
-				<a id="top-page-nav-link" class="four"><h3> CAULEEN SMITH </h3></a>
+				<a id="top-page-nav-link" class="four"><h3><button id="top-nav-link">CAULEEN SMITH</button></h3></a>
 				<div id="horizontal-line-four-container">
 				<hr style="color:#F0334E;background-color:#F0334E">
 				</div>
@@ -483,19 +533,19 @@ $("#hover-link-six").mouseleave(function(){
 							</p>
 						</div>
 					</div>
-					<div id="contributor-container" class="first">
+					<div id="contributor-container" class="first" title="Nikita Gale">
 						<div id="contributor-copy-container">
 							<p id="contributor-copy-one" class="first" data-hover=" COMING SOON"> NIKITA GALE </p>
 						</div>
 					</div>
 				</div>
 				<div id="right-container">
-					<div id="contributor-container" class="second">
+					<div id="contributor-container" class="second" title="Sky Hopinka">
 						<div id="contributor-copy-container">
 							<p id="contributor-copy-two" data-hover=" COMING SOON"> SKY HOPINKA </p>
 						</div>
 					</div>
-					<div id="contributor-container" class="third">
+					<div id="contributor-container" class="third" title="The Black School">
 						<div id="contributor-copy-container">
 							<p id="contributor-copy-three" data-hover=" COMING SOON"> THE BLACK SCHOOL </p>
 						</div>
@@ -525,8 +575,8 @@ $("#hover-link-six").mouseleave(function(){
 				</div>
 				<div id="divider-one-container"></div>
 				<div id="arrows-container">
-					<div id="left-arrow" class="responses"></div>
-					<div id="right-arrow" class="responses"></div>
+					<div id="left-arrow" class="responses" title="Left Navigation Arrow"><button id="nav-arrows"></button></div>
+					<div id="right-arrow" class="responses" title="Right Navigation Arrow"><button id="nav-arrows"></button></div>
 				</div>
 				<div id="divider-two-container"></div>
 			</div>	
@@ -536,7 +586,7 @@ $("#hover-link-six").mouseleave(function(){
 	<section>
 		<div id="catalog-page-container">
 			<div id="top-page-container">
-				<a id="top-page-nav-link" class="five"><h3> CAULEEN SMITH </h3></a>
+				<a id="top-page-nav-link" class="five"><h3><button id="top-nav-link">CAULEEN SMITH</button></h3></a>
 				<div id="horizontal-line-five-container">
 				<hr style="color:#F0334E;background-color:#F0334E">
 				</div>
@@ -551,8 +601,8 @@ $("#hover-link-six").mouseleave(function(){
 				</div>
 				<div id="pdf-copy-container">
 					<div id="pdf-arrows">
-						<div id="pdf-left-arrow"></div>
-						<div id="pdf-right-arrow"></div>
+						<div id="pdf-left-arrow" title="PDF Left Navigation Arrow"><button id="nav-arrows"></button></div>
+						<div id="pdf-right-arrow" title=" PDF Right Navigation Arrow"><button id="nav-arrows"></button></div>
 					</div>
 					<div id="pdf-copy">
 						<p id="catalog-copy">DOWNLOAD CATALOG <br> FOR <i>CAULEEN SMITH,</i> <br> H-E-L-LO : <i>TO DO ALL AT ONCE</i> <a href="assets/files/H-E-L-L-OinFiveNotes_3.24.pdf" download>HERE.</a></p>
@@ -582,8 +632,8 @@ $("#hover-link-six").mouseleave(function(){
 				</div>
 				<div id="divider-one-container"></div>
 				<div id="arrows-container">
-					<div id="left-arrow" class="catalog"></div>
-					<div id="right-arrow" class="catalog"></div>
+					<div id="left-arrow" class="catalog" title="Left Navigation Arrow"><button id="nav-arrows"></button></div>
+					<div id="right-arrow" class="catalog" title="Right Navigation Arrow"><button id="nav-arrows"></button></div>
 				</div>
 				<div id="divider-two-container"></div>
 			</div>	
