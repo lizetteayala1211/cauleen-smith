@@ -974,6 +974,20 @@ button#nav-links {
     width: 96%;
     margin: 20px;
 }
+  
+button#top-nav-link {
+    background: transparent;
+    border: 0px;
+    font-family: FREEFATFONT;
+    font-size: 1em;
+    line-height: 0.9;
+    color: rgb(240, 51, 78);
+    -webkit-text-stroke: 1px rgb(47, 11, 0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    /* width: 99%; */
+    text-align: left;  
 
 #copy-container {
     border-left: 1px solid rgb(240, 51, 78);
