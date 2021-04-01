@@ -918,8 +918,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
-    justify-content: flex-start;
+    place-content: center space-around;
     padding: 35px;
     background-color: rgb(240, 51, 78);
     height: 10%;
@@ -938,20 +937,20 @@ p {
     -webkit-text-stroke: 1px rgb(47, 11, 0);
     cursor: pointer;
 }
-  
-  button#nav-links {
+
+button#nav-links {
   background: transparent;
   border: 0;
 }
 
 #nav-links {
   font-family: 'Casta-Thin';
-  font-size: .8em;
+  font-size: .9em;
   color: #2F0B00;
   -webkit-text-stroke: 1px #2F0B00;
   cursor: pointer;
 }
-  
+
 #divider {
     display: block;
     background-image: url(assets/icons/divider.png);
@@ -960,8 +959,8 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #introduction-page-container {
