@@ -185,20 +185,30 @@ button#nav-links {
 #logo.one {
   width: 20%;
   height: 100%;
-  background-image: url("assets/icons/ifa_long_white.png"); /* The image used */
-    background-position: left; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: contain;
-    margin-right: 80px;
+  background-image: url("assets/icons/ifa_long_black.jpg"); /* The image used */
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  margin-right: 80px;
 }
 
 #logo.two {
   width: 20%;
   height: 100%;
   background-image: url("assets/icons/Valeria_XX_IFA_Smith.png"); /* The image used */
-    background-position: left; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: contain;
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  margin-right: 80px;
+}
+
+#logo.three {
+  width: 20%;
+  height: 100%;
+  background-image: url("assets/icons/VDB_Logo_WNameSAIC.png"); /* The image used */
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
 }
 
 #top-page-container {
@@ -711,13 +721,13 @@ a#hover-link-six {
 }
 
 #contributor-copy-one:hover {
-  font-size: 0;
+  font-style: italic;
 }
 
-#contributor-copy-one:hover:before {
+/*#contributor-copy-one:hover:before {
   font-size: 60px;
   content: attr(data-hover);
-}
+}*/
 
 #contributor-copy-two {
   margin: 0;
@@ -726,13 +736,13 @@ a#hover-link-six {
 }
 
 #contributor-copy-two:hover {
-  font-size: 0;
+  font-style: italic;
 }
 
-#contributor-copy-two:hover:before {
+/*#contributor-copy-two:hover:before {
   font-size: 60px;
   content: attr(data-hover);
-}
+}*/
 
 #contributor-copy-three {
   margin: 0;
@@ -741,19 +751,201 @@ a#hover-link-six {
 }
 
 #contributor-copy-three:hover {
-  font-size: 0;
+  font-style: italic;
 }
 
-#contributor-copy-three:hover:before {
+/*#contributor-copy-three:hover:before {
   font-size: 60px;
   content: attr(data-hover);
-}
+}*/
 
 #horizontal-line-four-container {
   width: 62%;
   margin-right: 32px;
   margin-left: 32px;
   align-self: center;
+}
+
+/*container that holds sky hopinka contribution content*/
+#sky-hopinka-contribution-container {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: transparent;
+  /*border: 1px solid green;*/
+  height: 90%;
+  width: 97%;
+  margin: 20px;
+  text-align: center;
+}
+
+#copy-three-container {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #F0334E;
+  border-right: 1px solid #F0334E;
+  height: 520px;
+  width: 100%;
+  margin-top: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+}
+
+/* sky hopinka video + text (all) container */
+#all-content-container {
+  display: flex;
+  flex-direction: column; 
+  overflow-y: scroll;
+  overflow-x: hidden;  
+    height: 200%;
+  width: 100%;
+}
+
+/* sky hopinka video container */
+#video-content-container {
+  display: flex;
+  flex-direction: row;  
+  height: 100%;
+  width: 100%;
+    margin-left: 80px;
+}
+
+#video-controls-container.two {
+  display: none;
+}
+
+#sky-bio {
+  text-align: left;
+}
+
+
+/*container that holds nikita gale contribution content*/
+#nikita-gale-contribution-container {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: transparent;
+  /*border: 1px solid green;*/
+  height: 90%;
+  width: 97%;
+  margin: 20px;
+  text-align: center;
+}
+
+/* nikita gale pdf copy (all) content */
+#copy-six-container {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #F0334E;
+  border-right: 1px solid #F0334E;
+  height: 520px;
+  width: 100%;
+  margin-top: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+#nikita-copy-content-container {
+  display: flex;
+  flex-direction: column; 
+  overflow-y: scroll;
+  overflow-x: hidden;  
+    height: 200%;
+  width: 100%; 
+}
+
+#nikita-pdf-content-container {
+  display: flex;
+  flex-direction: row;  
+  height: 100%;
+  width: 100%;
+}
+
+#pdf-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180%;
+  width: 70%;
+}
+
+#pdf-wrapper-2 {
+  height: 90%;
+  width: 90%;
+}
+
+#catalog-copy.nikita {
+  margin-top: 20px;
+}
+
+#index-line-break.nikita {
+  margin-top: 200px;
+}
+
+#nikita-indent {
+  margin-left: 60px;
+}
+
+/*container that holds the black school contribution content*/
+#the-black-school-contribution-container {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: transparent;
+  /*border: 1px solid green;*/
+  height: 90%;
+  width: 97%;
+  margin: 20px;
+  text-align: center;
+}
+
+#horizontal-line-container.the-black-school {
+  width: 54.5%;
+}
+
+#the-black-school-bio {
+  text-align: left;
+}
+
+/* the black school video container */
+#iframe-content-container {
+  display: flex;
+  flex-direction: row;  
+  height: 250%;
+  width: 100%;
+  align-self: center;
+  align-content: center;
+}
+
+#iframe-embed-container {
+  height: 235%;
+  width: 80%;
+  margin-left: 120px;
+  margin-top: 20px;
+  border: 1px solid #F0334E;
+  object-fit: cover;
+}
+
+#iframe-wrapper {
+  height: 100%;
+  width: 100%;
+   object-fit: cover; 
+}
+
+#vid3 {
+  object-fit: cover;
+}
+
+#video-controls-container.the-black-school {
+  display: none;
+  height: 250%;
+}
+
+#index-line-break.the-black-school {
+  margin-top: 310px;
 }
 
 #catalog-page-container {
