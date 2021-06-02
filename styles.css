@@ -776,7 +776,7 @@ a#hover-link-six {
   height: 90%;
   width: 97%;
   margin: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 #copy-three-container {
@@ -806,9 +806,9 @@ a#hover-link-six {
 #video-content-container {
   display: flex;
   flex-direction: row;  
-  height: 100%;
+  height: 90%;
   width: 100%;
-    margin-left: 80px;
+  margin-left: 80px;
 }
 
 #video-controls-container.two {
@@ -816,7 +816,7 @@ a#hover-link-six {
 }
 
 #sky-bio {
-  text-align: left;
+  text-align: center;
 }
 
 
@@ -853,7 +853,7 @@ a#hover-link-six {
   flex-direction: column; 
   overflow-y: scroll;
   overflow-x: hidden;  
-    height: 200%;
+  height: 200%;
   width: 100%; 
 }
 
@@ -868,8 +868,9 @@ a#hover-link-six {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 180%;
+  height: 290%;
   width: 70%;
+  margin-left: 170px;
 }
 
 #pdf-wrapper-2 {
@@ -877,12 +878,16 @@ a#hover-link-six {
   width: 90%;
 }
 
+#pdf-copy-container.nikita {
+  display: none;
+}
+
 #catalog-copy.nikita {
   margin-top: 20px;
 }
 
 #index-line-break.nikita {
-  margin-top: 200px;
+  margin-top: 310px;
 }
 
 #nikita-indent {
@@ -921,8 +926,8 @@ a#hover-link-six {
 }
 
 #iframe-embed-container {
-  height: 235%;
-  width: 80%;
+  height: 230%;
+  width: 78%;
   margin-left: 120px;
   margin-top: 20px;
   border: 1px solid #F0334E;
@@ -945,7 +950,7 @@ a#hover-link-six {
 }
 
 #index-line-break.the-black-school {
-  margin-top: 310px;
+  margin-top: 290px;
 }
 
 #catalog-page-container {
