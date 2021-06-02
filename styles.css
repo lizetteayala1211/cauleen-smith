@@ -1327,7 +1327,7 @@ button#top-nav-link {
 }
 
 #video-embed-container {
-    height: 70%;
+    height: 50vh;
     width: 90%;
     align-self: center;
     margin-left: 40px;
@@ -1574,7 +1574,7 @@ button#top-nav-link {
 }
 
 #iframe-embed-container {
-    height: 17vh;
+    height: 50vh;
     width: 75%;
     margin-left: 120px;
     margin-top: 20px;
@@ -1585,9 +1585,6 @@ button#top-nav-link {
 #index-line-break.the-black-school {
     margin-top: 50px;
 }
-
-
-
 
 
 }
