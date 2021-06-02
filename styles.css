@@ -908,7 +908,7 @@ a#hover-link-six {
 }
 
 #horizontal-line-container.the-black-school {
-  width: 54.5%;
+  width: 52.5%;
 }
 
 #the-black-school-bio {
@@ -1530,6 +1530,64 @@ button#top-nav-link {
     margin: 0px;
     font-size: 60px;
 }
+
+
+#video-content-container {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 100%;
+    margin-left: 0px; 
+}
+
+#copy-six-container {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #F0334E;
+    border-right: 1px solid #F0334E;
+    height: 85%;
+    width: 100%;
+    margin-top: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+
+#pdf-container-2 {
+     display: flex; 
+    /*display: none;*/
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    margin-left: 0px;
+}
+
+#index-line-break.nikita {
+     margin-top: 0px; 
+}
+
+#horizontal-line-container.the-black-school {
+    width: 10%;
+}
+
+#iframe-embed-container {
+    height: 20vh;
+    width: 78%;
+    margin-left: 120px;
+    margin-top: 20px;
+    border: 1px solid #F0334E;
+    object-fit: cover;
+}
+
+#index-line-break.the-black-school {
+    margin-top: 50px;
+}
+
+
+
 
 
 }
