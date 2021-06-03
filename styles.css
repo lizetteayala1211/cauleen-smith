@@ -948,7 +948,7 @@ a#hover-link-six {
   height: 100%;
 }*/
 
-#vid3 {
+/*#vid3 {
   object-fit: cover;
     display: flex;
     justify-content: center;
@@ -956,7 +956,7 @@ a#hover-link-six {
     align-items: center;
     align-self: center;
     position: relative;  
-}
+}*/
 
 #video-controls-container.the-black-school {
   display: none;
@@ -1601,9 +1601,7 @@ button#top-nav-link {
 }
 
 
-#vid3-box {
-/*  display: flex;
-  flex-direction: column;*/
+/*#vid3-box {
   padding: 0% 0 0 0 !important; 
   position: relative;
   height: 100%;
@@ -1611,7 +1609,7 @@ button#top-nav-link {
 
 iframe#player {
   height: 100% !important; 
-}
+}*/
 
 /*#vid3-box iframe {
   flex-grow: 1;
